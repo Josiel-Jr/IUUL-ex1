@@ -24,13 +24,6 @@ namespace ex4
                 }
             }
         }
-        public void listPoligono()
-        {
-            foreach(Vertice vertice in Vertices)
-            {
-                Console.WriteLine("X={0} Y={1}",vertice.X,vertice.Y);
-            }
-        }
         public bool AddVertice(Vertice v)
         {
             foreach(Vertice vertice in Vertices)

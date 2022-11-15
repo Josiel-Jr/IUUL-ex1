@@ -18,22 +18,9 @@ namespace ex4
             Console.WriteLine(p1.perimetroPoligono());
             Vertice v4 = new Vertice(10, 3);
             Vertice v5 = new Vertice(4, 3);
-            p1.listPoligono();
             p1.AddVertice(v4);
-            Console.WriteLine();
-            p1.listPoligono();
             p1.RemoveVertice(v5);
-            Console.WriteLine();
-            p1.listPoligono();
-            /* p1.AddVertice(v4);
-             p1.listPoligono();
-             Console.WriteLine();
-             p1.RemoveVertice(v2);
-             p1.listPoligono();
-             Console.WriteLine();
-             p1.RemoveVertice(v1);
-             p1.listPoligono();
-             p1.AddVertice(v1);*/
+            
         }
     }
 }
